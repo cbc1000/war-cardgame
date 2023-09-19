@@ -20,7 +20,7 @@ class Deck {
 
     for (let i = 0; i < suits.length; i++) {
         for (let j = 0; j < ranks.length; j++) {
-            this.cards.push(new Card(suits[i], ranks[j], values[j], `../Aflevering OOP/Kort/${ranks[j]}_of_${suits[i]}.png`))
+            this.cards.push(new Card(suits[i], ranks[j], values[j], `/Kort/${ranks[j]}_of_${suits[i]}.png`))
             }
         }
     }

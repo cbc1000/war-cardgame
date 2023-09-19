@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: 10rem 10rem 10rem;
+    gap: 5rem;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.deck {
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
